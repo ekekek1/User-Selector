@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .content {
+    width: 700px;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .custom-bullet-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .custom-bullet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+  }
